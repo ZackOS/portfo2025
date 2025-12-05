@@ -1,13 +1,13 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "Muhammad Zaky Fauzi",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "A portfolio of Muhammad Zaky Fauzi",
   "source": "src/index.html",
-  "homepage": "http://{ZackOS}.github.io/{portfo2025}",
+  "homepage": "http://ZackOS.github.io/portfo2025",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{ZackOS}.github.io/{portfo2025}'",
+    "build-gh": "parcel build --public-url 'https://ZackOS.github.io/portfo2025'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
