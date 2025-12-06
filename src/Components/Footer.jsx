@@ -13,11 +13,14 @@ import PropTypes from "prop-types";
 import devDotToIcon from "../images/socials/devdotto.svg";
 import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
+import bloggerIcon from "../images/socials/blogger.svg"
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
+import seekIcon from "../images/socials/seek.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import facebookIcon from "../images/socials/facebook.svg";
 
 /**
  * 💡 Learning resources
@@ -31,13 +34,16 @@ const Footer = (props) => {
     devDotTo,
     email,
     gitHub,
+    blogger,
     instagram,
     linkedIn,
+    seek,
     medium,
     name,
     primaryColor,
     twitter,
     youTube,
+    facebook,
   } = props;
 
   return (
@@ -75,6 +81,11 @@ const Footer = (props) => {
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
+        {blogger && (
+          <a href={`${blogger}`} target="_blank" rel="noopener noreferrer">
+            <img src={bloggerIcon} alt="blogger" className="socialIcon" />
+          </a>
+        )}
         {instagram && (
           <a
             href={`https://www.instagram.com/${instagram}`}
@@ -93,6 +104,15 @@ const Footer = (props) => {
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
           </a>
         )}
+        {seek && (
+          <a
+            href={`https://www.seek.com.au/profiles/${seek}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={seekIcon} alt="seek" className="socialIcon" />
+          </a>
+        )}
         {medium && (
           <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
@@ -101,6 +121,11 @@ const Footer = (props) => {
         {twitter && (
           <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
+          </a>
+        )}
+        {facebook && (
+          <a href={`https://facebook.com/${facebook}`} target="_blank" rel="noopener noreferrer">
+            <img src={facebookIcon} alt="Facebook" className="socialIcon" />
           </a>
         )}
         {youTube && (
@@ -130,11 +155,13 @@ Footer.propTypes = {
   gitHub: PropTypes.string,
   instagram: PropTypes.string,
   linkedIn: PropTypes.string,
+  seek: PropTypes.string,
   medium: PropTypes.string,
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
+  facebook: PropTypes.string,
 
 };
 

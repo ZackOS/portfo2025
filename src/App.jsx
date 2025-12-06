@@ -28,11 +28,14 @@ const siteProps = {
   title: "Software Developer & Small Business Owner",
   email: "zetzaky@gmail.com",
   gitHub: "ZackOS",
+  blogger: "https://geekybray.blogspot.com/",
   instagram: "",
   linkedIn: "muhammad-zaky-fauzi-91705b11a/",
+  seek: "muhammadzaky-fauzi-MB4rbpHfh4",
   medium: "",
   twitter: "geekybray",
   youTube: "",
+  facebook: "mzakyfauzi",
 };
 
 const primaryColor = "#4E567E";
