@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Muhammad Zaky Fauzi",
-  title: "Software Developer & Small Business Owner",
+  title: "canteen outlet owner & Software Developer",
   email: "zetzaky@gmail.com",
   gitHub: "ZackOS",
   blogger: "https://geekybray.blogspot.com/",
